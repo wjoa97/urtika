@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Public profile metadata of a registered user",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Auth UID" },
+        "displayName": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "format": "email", "maxLength": 150 },
+        "photoURL": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "email", "createdAt"]
+    },
+    "Reaction": {
+      "title": "Allergy Reaction Record",
+      "description": "Individual urticaria/allergy episode recorded by a specific user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "fecha": { "type": "string", "maxLength": 50 },
+        "fechaFormateada": { "type": "string", "maxLength": 60 },
+        "semana": { "type": "number" },
+        "ubicacion": { "type": "string", "maxLength": 200 },
+        "ubicacionCuerpo": { "type": "string", "maxLength": 300 },
+        "cuerpoZonasSeleccionadas": { "type": "array" },
+        "ronchas": { "type": "number" },
+        "prurito": { "type": "number" },
+        "puntuacionDia": { "type": "number" },
+        "tomoMedicamento": { "type": "boolean" },
+        "medicamento": { "type": "string", "maxLength": 200 },
+        "tiempoDesaparecer": { "type": "string", "maxLength": 50 },
+        "notas": { "type": "string", "maxLength": 1000 },
+        "detonantes": { "type": "array" },
+        "creadoEn": { "type": "string", "maxLength": 50 }
+      },
+      "required": ["id", "userId", "fecha", "semana", "puntuacionDia", "ronchas", "prurito"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "User profile document owned exclusively by userId"
+    },
+    "/users/{userId}/reactions/{reactionId}": {
+      "schema": { "$ref": "#/entities/Reaction" },
+      "description": "Subcollection of reactions strictly isolated per user"
+    }
+  }
+}
