@@ -84,7 +84,7 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "revision": "810fed2612b19bac9846c9c3a2a624aa"
   }, {
     "url": "index.html",
-    "revision": "adb353f5177198b23a630a83e5940ff2"
+    "revision": "fa053c10e6e88a173fce5bc6f1b604df"
   }, {
     "url": "icon-512.png",
     "revision": "1ebd336b60365959fced8fa38575fec8"
@@ -101,16 +101,16 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "url": "assets/purify.es-BZxk_wWO.js",
     "revision": null
   }, {
-    "url": "assets/index.es-DIOZ2ROo.js",
+    "url": "assets/index.es-C7EbCMDN.js",
     "revision": null
   }, {
-    "url": "assets/index-B3Nx0jEQ.js",
+    "url": "assets/index-z4wbL_2d.css",
     "revision": null
   }, {
-    "url": "assets/index-8U-KrwSq.css",
+    "url": "assets/index-BTuOZqIV.js",
     "revision": null
   }, {
-    "url": "assets/html2canvas-DiF5B_pv.js",
+    "url": "assets/html2canvas-BeGuGWTt.js",
     "revision": null
   }, {
     "url": "_redirects",
