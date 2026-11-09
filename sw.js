@@ -84,7 +84,7 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "revision": "810fed2612b19bac9846c9c3a2a624aa"
   }, {
     "url": "index.html",
-    "revision": "6924b1f36d43c8cefb445917b670f7aa"
+    "revision": "e39edd870470dba2278b830894b849f7"
   }, {
     "url": "icon-512.png",
     "revision": "1ebd336b60365959fced8fa38575fec8"
@@ -101,19 +101,46 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "url": "assets/purify.es-BZxk_wWO.js",
     "revision": null
   }, {
-    "url": "assets/index.es-DAjgK9mG.js",
+    "url": "assets/index.es-CBKE4C0T.js",
     "revision": null
   }, {
-    "url": "assets/index-ByXx1EIM.css",
+    "url": "assets/index-qwk_LxM3.js",
     "revision": null
   }, {
-    "url": "assets/index-BltHNqDt.js",
+    "url": "assets/index-BSxyNDE0.css",
     "revision": null
   }, {
-    "url": "assets/html2canvas-Df9gIZ2_.js",
+    "url": "assets/html2canvas-D10eCW4a.js",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/image_f4351a6c.png",
     "revision": null
   }, {
     "url": "assets/aistudio/image_e3496e3b.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/image_999b2b6d.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/image_563cd3c5.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/image_34aac16f.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_20261109-060655_Keep_Notas_06571efa.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_20261109-060652_Keep_Notas_cbd94ff2.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_20261109-060650_Keep_Notas_5d5b34fd.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_20261109-060648_Keep_Notas_8650ef2a.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_20261109-060646_Keep_Notas_e424a214.png",
     "revision": null
   }, {
     "url": "_redirects",
