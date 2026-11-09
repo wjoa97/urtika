@@ -84,7 +84,7 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "revision": "810fed2612b19bac9846c9c3a2a624aa"
   }, {
     "url": "index.html",
-    "revision": "e39edd870470dba2278b830894b849f7"
+    "revision": "94c68dd27ee2128897540f90f3192a3d"
   }, {
     "url": "icon-512.png",
     "revision": "1ebd336b60365959fced8fa38575fec8"
@@ -101,16 +101,16 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "url": "assets/purify.es-BZxk_wWO.js",
     "revision": null
   }, {
-    "url": "assets/index.es-CBKE4C0T.js",
+    "url": "assets/index.es-BsPU1W7i.js",
     "revision": null
   }, {
-    "url": "assets/index-qwk_LxM3.js",
+    "url": "assets/index-nwG5E61A.js",
     "revision": null
   }, {
     "url": "assets/index-BSxyNDE0.css",
     "revision": null
   }, {
-    "url": "assets/html2canvas-D10eCW4a.js",
+    "url": "assets/html2canvas-C4Eoq1tB.js",
     "revision": null
   }, {
     "url": "assets/aistudio/image_f4351a6c.png",
@@ -126,6 +126,9 @@ define(['./workbox-afac4cd2'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "assets/aistudio/image_34aac16f.png",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/image_238f24e1.png",
     "revision": null
   }, {
     "url": "assets/aistudio/Screenshot_20261109-060655_Keep_Notas_06571efa.png",
